@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#animation {
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
