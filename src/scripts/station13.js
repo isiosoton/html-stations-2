@@ -1,4 +1,8 @@
 function changeBackgroundColor(e) {
-  // ここに背景色を変える処理を書く。
-
+  document.getElementById("text").style.backgroundColor = document.getElementById("check").checked ? "red" : "white";
+  // if (document.getElementById("check").checked) {
+  //   document.getElementById("text").style.backgroundColor = "red";
+  // } else {
+  //   document.getElementById("text").style.backgroundColor = "white";
+  // }
 }
